@@ -9,7 +9,7 @@
  */
 
 const loopback = module.exports = require('./lib/loopback');
-const datasourceJuggler = require('loopback-datasource-juggler');
+const datasourceJuggler = require('@tispr/loopback-datasource-juggler');
 
 /**
  * Connectors
@@ -18,12 +18,12 @@ const datasourceJuggler = require('loopback-datasource-juggler');
 loopback.Connector = require('./lib/connectors/base-connector');
 loopback.Memory = require('./lib/connectors/memory');
 loopback.Mail = require('./lib/connectors/mail');
-loopback.Remote = require('loopback-connector-remote');
+loopback.Remote = require('@tispr/loopback-connector-remote');
 
 /**
  * Types
  */
 
-loopback.GeoPoint = require('loopback-datasource-juggler/lib/geo').GeoPoint;
-loopback.DateString = require('loopback-datasource-juggler/lib/date-string');
+loopback.GeoPoint = require('@tispr/loopback-datasource-juggler/lib/geo').GeoPoint;
+loopback.DateString = require('@tispr/loopback-datasource-juggler/lib/date-string');
 loopback.ValidationError = loopback.Model.ValidationError;

@@ -11,7 +11,7 @@ const loopback = require('../../');
 const ACL = loopback.ACL;
 const Change = loopback.Change;
 const PersistedModel = loopback.PersistedModel;
-const RemoteObjects = require('strong-remoting');
+const RemoteObjects = require('@tispr/strong-remoting');
 const TaskEmitter = require('strong-task-emitter');
 
 module.exports = function defineModelTestsWithDataSource(options) {

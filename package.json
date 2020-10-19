@@ -1,6 +1,6 @@
 {
   "name": "@tispr/loopback",
-  "version": "3.27.0",
+  "version": "3.27.0-1",
   "description": "LoopBack: Open Source Framework for Node.js",
   "homepage": "http://loopback.io",
   "keywords": [
@@ -58,7 +58,7 @@
     "serve-favicon": "^2.2.0",
     "stable": "^0.1.5",
     "strong-globalize": "^4.1.1",
-    "strong-remoting": "^3.11.0",
+    "@tispr/strong-remoting": "^3.11.0",
     "uid2": "0.0.3",
     "underscore.string": "^3.3.5"
   },

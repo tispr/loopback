@@ -1,5 +1,5 @@
 {
-  "name": "loopback",
+  "name": "@tispr/loopback",
   "version": "3.27.0",
   "description": "LoopBack: Open Source Framework for Node.js",
   "homepage": "http://loopback.io",
@@ -48,8 +48,8 @@
     "express": "^4.14.0",
     "inflection": "^1.6.0",
     "isemail": "^3.2.0",
-    "loopback-connector-remote": "^3.0.0",
-    "loopback-datasource-juggler": "^3.28.0",
+    "@tispr/loopback-connector-remote": "^3.0.0",
+    "@tispr/loopback-datasource-juggler": "^4.0.0",
     "loopback-filters": "^1.0.0",
     "loopback-phase": "^3.0.0",
     "nodemailer": "^4.0.1",
@@ -102,7 +102,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/loopback"
+    "url": "https://github.com/tispr/loopback.git"
   },
   "browser": {
     "express": "./lib/browser-express.js",
